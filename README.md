@@ -31,7 +31,7 @@ For Windows, its recommended to have Ubuntu WSL installed then installing docker
 
 1. Clone this repo
    ```sh
-   git clone [https://github.com/Alausa2001/dAppPasswordGenerator](https://github.com/Alausa2001/dAppPasswordGenerator)
+   git clone https://github.com/Alausa2001/dAppPasswordGenerator
    ```
 2. Install NPM packages
    ```sh
@@ -45,5 +45,3 @@ For Windows, its recommended to have Ubuntu WSL installed then installing docker
    ```sh
    cartesi run 
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
