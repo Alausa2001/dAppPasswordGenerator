@@ -45,3 +45,30 @@ For Windows, its recommended to have Ubuntu WSL installed then installing docker
    ```sh
    cartesi run 
    ```
+
+## USAGE
+#### Advanced handlers
+```
+description — generate a password with a specified number of characters and numbers.
+parameters * — { numChars: int, numNumbers: int }
+```
+
+###### sample
+```
+{
+     "data": {
+        "numChars": 8,
+        "numNumbers": 4
+    }
+}
+```
+###### Interact
+Via `cartesi cli`, access your terminal in another window and input these instructions below:
+```
+cartesi send generic \
+    --dapp=0xab7528bb862fb57e8a2bcd567a2e929a0be56a5e \
+    --chain-id=31337 \
+    --rpc-url=http://127.0.0.1:5000 \
+    --mnemonic-passphrase='test test test test test test test test test test test junk' \
+    --input=0x7b22616374696f6e223a2267656e657261746550617373776f7264222c202264617461223a7b226e756d4368617273223a2238222c20226e756d4e756d62657273223a2234227d7d
+```
