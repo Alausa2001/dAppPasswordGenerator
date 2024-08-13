@@ -2,11 +2,6 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <h3 align="center">Password generator</h3>
-</div>
-
 ## About
 <p>
     This is decentralized application (dapp) for generating random passwords powered by <a href="https://docs.cartesi.io/cartesi-rollups/1.3/">cartesi</a> rollups technology.
