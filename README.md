@@ -31,7 +31,7 @@ For Windows, its recommended to have Ubuntu WSL installed then installing docker
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/Alausa2001/dAppPasswordGenerator
+   git clone https://github.com/Alausa2001/dAppPasswordGenerator.git
    ```
 2. Install NPM packages
    ```sh
